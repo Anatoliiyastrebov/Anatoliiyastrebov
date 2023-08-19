@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lugrasimo', cursive;
+}
+header{
+    height: 161px;
+}
+div{
+    background-color: yellow;
+    /* height: 100px; */
+    /* padding: 100px 50px 70px 50px; */
+    padding: 100px 50px ;
+    margin: 50px auto;
+    height: 421px;
+}
+p{
+    width: 100px;
+    font-size: 50px;
+    
+}

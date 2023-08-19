@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    height: 5448px; 
+    width: 100%;
+    background-color: black;
+}
+header{
+    height: 1573px;
+    margin: 0px auto;
+}
+.container_img{
+    display: block;
+    margin: 0x;
+    width: auto;
+    height: 1573px;
+    background: url(../img/Rectangle\ 1.png) center, no-repeat;
+    background-size: cover;
+}
+.QWERy{
+    margin: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    width: 90%;
+}
+.qwery-left{
+    color: rgb(135, 134, 134);
+    justify-content: flex-start;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+}
+.center-top{
+    display: inline-flex;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+.center-top1,
+.center-top2,
+.center-top3{
+    margin-left: 50px;
+}
+.color{
+    color: rgb(135, 134, 134);
+    text-decoration: none;
+    font-size: 18px;
+}
+.search-end{
+    color: rgb(135, 134, 134);  
+    height: 25px;
+    /* width: 25px; */
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-1{
+    color: rgb(135, 134, 134);  
+}
+.search{
+    font-size: 17px;
+    margin-left: 10px;
+    color: rgb(135, 134, 134);  
+    text-decoration: none;
+}
+.Discover-explore{
+    margin: 0;
+    height: 261px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding:  344px 470px 652px 500px;
+    display: inline-block;
+    align-items: center;
+} 
+.explore{
+    height: 25px;
+    width: 416px;
+    justify-content: center;
+    text-align: center;
+    /* display: inline-block; */
+    color: #e9993e;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    overflow: hidden;
+    /* align-items: flex-start; */
+}
+.explore span{
+    position: relative;
+}
+.explore span::before{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #e9993e; 
+    position: absolute;
+    right: 450px;
+    overflow: hidden;
+    width: 72px;
+    top: 50%;
+}
+.discover{
+    display: block;
+    margin: 0px auto;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.Discover-1{
+    /* justify-content: flex-start; */
+    margin: 0 auto;
+    font-size: 88px;
+    /* padding:  344px 470px 652px 500px; */
+    /* display: block; */
+    /* justify-content: flex-start;  */
+    /* align-items: center;  */
+} 
